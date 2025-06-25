@@ -6,7 +6,7 @@
 /*   By: fmoulin <fmoulin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 09:12:46 by fmoulin           #+#    #+#             */
-/*   Updated: 2025/05/12 15:46:12 by fmoulin          ###   ########.fr       */
+/*   Updated: 2025/06/25 16:43:14 by fmoulin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@
 typedef struct s_list
 {
 	void			*content;
+	char			*str_buf;
 	struct s_list	*next;
 }					t_list;
 
